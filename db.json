@@ -1,22 +1,21 @@
 {
-   "cups":[  
-      {  
-         "icon":"fa-calendar",
-         "data":"Senaste bryggning",
-         "value":"2019-03-07",
-         "type":""
-      },
-      {  
-         "icon":"fa-clock-o",
-         "data":"Klockan",
-         "value":"17:32:06",
-         "type":""
-      },
-      {  
-         "icon":"fa-coffee",
-         "data":"Totalt antal bryggda koppar",
-         "value":60,
-         "type":"st"
-      }
-   ]
+	"cups": [{
+			"icon": "fa-calendar",
+			"data": "Senaste bryggning",
+			"value": "2019-03-07",
+			"type": ""
+		},
+		{
+			"icon": "fa-clock-o",
+			"data": "Klockan",
+			"value": "17:32:06",
+			"type": ""
+		},
+		{
+			"icon": "fa-coffee",
+			"data": "Totalt antal bryggda koppar",
+			"value": 60,
+			"type": "st"
+		}
+	]
 }

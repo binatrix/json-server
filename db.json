@@ -46,5 +46,9 @@
 		"auth": {
 			"basic": "xxxxxxxxxxx"
 		}
+	}],
+	"mqtt": [{
+		"tag": "luces/luz_papa",
+		"name": "Papa"
 	}]
 }

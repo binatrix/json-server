@@ -1,4 +1,23 @@
 {
+	"mqtt": [{
+		"tag": "luces/luz_papa",
+		"name": " Papa"
+	},{
+		"tag": "luces/luz_comedor",
+		"name": " Comedor"
+	},{
+		"tag": "luces/luz_living",
+		"name": " Arbol"
+	},{
+		"tag": "luces/luz_jardin",
+		"name": " Jardin"
+	},{
+		"tag": "luces/luz_patio",
+		"name": " Patio"
+	},{
+		"tag": "luces/luz_manzarda",
+		"name": " Manzarda"
+	}],
 	"currentUsages": [{
 			"deviceName": "Cocina",
 			"currentWattValue": 180,
@@ -46,9 +65,5 @@
 		"auth": {
 			"basic": "xxxxxxxxxxx"
 		}
-	}],
-	"mqtt": [{
-		"tag": "luces/luz_papa",
-		"name": "Papa"
 	}]
 }

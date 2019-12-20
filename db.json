@@ -17,6 +17,9 @@
 	},{
 		"tag": "luces/luz_manzarda",
 		"name": " Manzarda"
+	},{
+		"tag": "luces/luz_pablo",
+		"name": " Pablo"
 	}],
 	"currentUsages": [{
 			"deviceName": "Cocina",

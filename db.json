@@ -1,40 +1,50 @@
 {
-    "currentUsages": [
-        {
-            "deviceName": "Cocina",
-            "currentWattValue": 180,
-            "todayKwhUsage": 5.902,
-            "lastUpdate": "2019-04-02T18:12:06Z"
-        },
-        {
-            "deviceName": "Manzarda",
-            "currentWattValue": 76,
-            "todayKwhUsage": 0.46,
-            "lastUpdate": "2019-04-02T18:06:52Z"
-        },
-        {
-            "deviceName": "Living",
-            "currentWattValue": 0,
-            "todayKwhUsage": 2.21,
-            "lastUpdate": "2019-04-02T17:30:01Z"
-        },
-        {
-            "deviceName": "Pieza",
-            "currentWattValue": 1.3,
-            "todayKwhUsage": 0.55,
-            "lastUpdate": "2019-04-02T18:09:55Z"
-        },
-        {
-            "deviceName": "Comedor",
-            "currentWattValue": 0.5,
-            "todayKwhUsage": 0.01,
-            "lastUpdate": "2019-04-02T18:10:51Z"
-        },
-        {
-            "deviceName": "Patio",
-            "currentWattValue": 0,
-            "todayKwhUsage": 0,
-            "lastUpdate": "2019-04-02T18:12:06Z"
-        }
-    ]
+	"currentUsages": [{
+			"deviceName": "Cocina",
+			"currentWattValue": 180,
+			"todayKwhUsage": 5.902,
+			"lastUpdate": "2019-04-02T18:12:06Z"
+		},
+		{
+			"deviceName": "Manzarda",
+			"currentWattValue": 76,
+			"todayKwhUsage": 0.46,
+			"lastUpdate": "2019-04-02T18:06:52Z"
+		},
+		{
+			"deviceName": "Living",
+			"currentWattValue": 0,
+			"todayKwhUsage": 2.21,
+			"lastUpdate": "2019-04-02T17:30:01Z"
+		},
+		{
+			"deviceName": "Pieza",
+			"currentWattValue": 1.3,
+			"todayKwhUsage": 0.55,
+			"lastUpdate": "2019-04-02T18:09:55Z"
+		},
+		{
+			"deviceName": "Comedor",
+			"currentWattValue": 0.5,
+			"todayKwhUsage": 0.01,
+			"lastUpdate": "2019-04-02T18:10:51Z"
+		},
+		{
+			"deviceName": "Patio",
+			"currentWattValue": 0,
+			"todayKwhUsage": 0,
+			"lastUpdate": "2019-04-02T18:12:06Z"
+		}
+	],
+	"sites": [{
+		"name": "Water",
+		"url": "http://127.0.0.1/water/1",
+		"method": "POST",
+		"data": {
+			"aaa": 1
+		},
+		"auth": {
+			"basic": "xxxxxxxxxxx"
+		}
+	}]
 }

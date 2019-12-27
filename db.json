@@ -54,10 +54,6 @@
 		"payload": "vol-"
 	}, {
 		"topic": "chromecast",
-		"name": " Seek +",
-		"payload": "seek+"
-	}, {
-		"topic": "chromecast",
 		"name": " Seek -",
 		"payload": "seek-"
 	}],

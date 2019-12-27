@@ -1,25 +1,41 @@
 {
 	"mqtt": [{
 		"topic": "luces/luz_papa",
-		"name": " Papa"
-	},{
+		"name": " Papa",
+		"payload": "FLIP"
+	}, {
 		"topic": "luces/luz_comedor",
-		"name": " Comedor"
-	},{
+		"name": " Comedor",
+		"payload": "FLIP"
+	}, {
 		"topic": "luces/luz_living",
-		"name": " Arbol"
-	},{
+		"name": " Arbol",
+		"payload": "FLIP"
+	}, {
 		"topic": "luces/luz_jardin",
-		"name": " Jardin"
-	},{
+		"name": " Jardin",
+		"payload": "FLIP"
+	}, {
 		"topic": "luces/luz_patio",
-		"name": " Patio"
-	},{
+		"name": " Patio",
+		"payload": "FLIP"
+	}, {
 		"topic": "luces/luz_manzarda",
-		"name": " Manzarda"
-	},{
+		"name": " Manzarda",
+		"payload": "FLIP"
+	}, {
 		"topic": "luces/luz_pablo",
-		"name": " Pablo"
+		"name": " Pablo",
+		"payload": "FLIP"
+	}],
+	"chromecast": [{
+		"topic": "chromecast",
+		"name": " Play",
+		"payload": "play"
+	}, {
+		"topic": "chromecast",
+		"name": " Stop",
+		"payload": "stop"
 	}],
 	"currentUsages": [{
 			"deviceName": "Cocina",

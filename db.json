@@ -2,60 +2,60 @@
 	"mqtt": [{
 		"topic": "luces/luz_papa",
 		"name": " Papa",
-		"payload": "FLIP"
+		"message": "FLIP"
 	}, {
 		"topic": "luces/luz_comedor",
 		"name": " Comedor",
-		"payload": "FLIP"
+		"message": "FLIP"
 	}, {
 		"topic": "luces/luz_living",
 		"name": " Arbol",
-		"payload": "FLIP"
+		"message": "FLIP"
 	}, {
 		"topic": "luces/luz_jardin",
 		"name": " Jardin",
-		"payload": "FLIP"
+		"message": "FLIP"
 	}, {
 		"topic": "luces/luz_patio",
 		"name": " Patio",
-		"payload": "FLIP"
+		"message": "FLIP"
 	}, {
 		"topic": "luces/luz_manzarda",
 		"name": " Manzarda",
-		"payload": "FLIP"
+		"message": "FLIP"
 	}, {
 		"topic": "luces/luz_pablo",
 		"name": " Pablo",
-		"payload": "FLIP"
+		"message": "FLIP"
 	}],
 	"chromecast": [{
 		"topic": "chromecast",
 		"name": " Play",
-		"payload": "play"
+		"message": "play"
 	}, {
 		"topic": "chromecast",
 		"name": " Pause",
-		"payload": "pause"
+		"message": "pause"
 	}, {
 		"topic": "chromecast",
 		"name": " Stop",
-		"payload": "stop"
+		"message": "stop"
 	}, {
 		"topic": "chromecast",
 		"name": " Quit",
-		"payload": "quit"
+		"message": "quit"
 	}, {
 		"topic": "chromecast",
 		"name": " Volume +",
-		"payload": "vol+"
+		"message": "vol+"
 	}, {
 		"topic": "chromecast",
 		"name": " Volume -",
-		"payload": "vol-"
+		"message": "vol-"
 	}, {
 		"topic": "chromecast",
 		"name": " Seek -",
-		"payload": "seek-"
+		"message": "seek-"
 	}],
 	"currentUsages": [{
 			"deviceName": "Cocina",

@@ -165,50 +165,43 @@
 		"name": " Play",
 		"pub": {
 			"topic": "chromecast",
-			"message": "play",
-			"retain": false
+			"message": "play"
 		}
 	}, {
 		"name": " Pause",
 		"pub": {
 			"topic": "chromecast",
-			"message": "pause",
-			"retain": false
+			"message": "pause"
 		}
 	}, {
 		"name": " Stop",
 		"pub": {
 			"topic": "chromecast",
-			"message": "stop",
-			"retain": false
+			"message": "stop"
 		}
 	}, {
 		"name": " Quit",
 		"pub": {
 			"topic": "chromecast",
-			"message": "quit",
-			"retain": false
+			"message": "quit"
 		}
 	}, {
 		"name": " Volume +",
 		"pub": {
 			"topic": "chromecast",
-			"message": "vol+",
-			"retain": false
+			"message": "vol+"
 		}
 	}, {
 		"name": " Volume -",
 		"pub": {
 			"topic": "chromecast",
-			"message": "vol-",
-			"retain": false
+			"message": "vol-"
 		}
 	}, {
 		"name": " Seek -",
 		"pub": {
 			"topic": "chromecast",
-			"message": "seek-",
-			"retain": false
+			"message": "seek-"
 		}
 	}],
 	"currentUsages": [{

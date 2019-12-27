@@ -20,7 +20,7 @@
 				"payload": "OUT",
 				"text": "0xFFFF",
 				"back": "0xF800"
-			}]		
+			}]
 		}
 	}, {
 		"name": " Comedor",
@@ -30,7 +30,20 @@
 			"retain": true
 		},
 		"sub": {
-			"topic": "luces/luz_comedor/out"
+			"topic": "luces/luz_comedor/out",
+			"color": [{
+				"payload": "ON",
+				"text": "0xFFFF",
+				"back": "0x03E0"
+			}, {
+				"payload": "OFF",
+				"text": "0xFFFF",
+				"back": "0x0000"
+			}, {
+				"payload": "OUT",
+				"text": "0xFFFF",
+				"back": "0xF800"
+			}]
 		}
 	}, {
 		"name": " Arbol",
@@ -40,7 +53,20 @@
 			"retain": true
 		},
 		"sub": {
-			"topic": "luces/luz_living/out"
+			"topic": "luces/luz_living/out",
+			"color": [{
+				"payload": "ON",
+				"text": "0xFFFF",
+				"back": "0x03E0"
+			}, {
+				"payload": "OFF",
+				"text": "0xFFFF",
+				"back": "0x0000"
+			}, {
+				"payload": "OUT",
+				"text": "0xFFFF",
+				"back": "0xF800"
+			}]
 		}
 	}, {
 		"name": " Jardin",
@@ -50,7 +76,20 @@
 			"retain": true
 		},
 		"sub": {
-			"topic": "luces/luz_jardin/out"
+			"topic": "luces/luz_jardin/out",
+			"color": [{
+				"payload": "ON",
+				"text": "0xFFFF",
+				"back": "0x03E0"
+			}, {
+				"payload": "OFF",
+				"text": "0xFFFF",
+				"back": "0x0000"
+			}, {
+				"payload": "OUT",
+				"text": "0xFFFF",
+				"back": "0xF800"
+			}]
 		}
 	}, {
 		"name": " Patio",
@@ -60,7 +99,20 @@
 			"retain": true
 		},
 		"sub": {
-			"topic": "luces/luz_patio/out"
+			"topic": "luces/luz_patio/out",
+			"color": [{
+				"payload": "ON",
+				"text": "0xFFFF",
+				"back": "0x03E0"
+			}, {
+				"payload": "OFF",
+				"text": "0xFFFF",
+				"back": "0x0000"
+			}, {
+				"payload": "OUT",
+				"text": "0xFFFF",
+				"back": "0xF800"
+			}]
 		}
 	}, {
 		"name": " Manzarda",
@@ -70,7 +122,20 @@
 			"retain": true
 		},
 		"sub": {
-			"topic": "luces/luz_manzarda/out"
+			"topic": "luces/luz_manzarda/out",
+			"color": [{
+				"payload": "ON",
+				"text": "0xFFFF",
+				"back": "0x03E0"
+			}, {
+				"payload": "OFF",
+				"text": "0xFFFF",
+				"back": "0x0000"
+			}, {
+				"payload": "OUT",
+				"text": "0xFFFF",
+				"back": "0xF800"
+			}]
 		}
 	}, {
 		"name": " Pablo",
@@ -80,7 +145,20 @@
 			"retain": true
 		},
 		"sub": {
-			"topic": "luces/luz_pablo/out"
+			"topic": "luces/luz_pablo/out",
+			"color": [{
+				"payload": "ON",
+				"text": "0xFFFF",
+				"back": "0x03E0"
+			}, {
+				"payload": "OFF",
+				"text": "0xFFFF",
+				"back": "0x0000"
+			}, {
+				"payload": "OUT",
+				"text": "0xFFFF",
+				"back": "0xF800"
+			}]
 		}
 	}],
 	"chromecast": [{

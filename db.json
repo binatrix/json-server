@@ -71,33 +71,54 @@
 		}
 	}],
 	"chromecast": [{
-		"topic": "chromecast",
 		"name": " Play",
-		"message": "play"
+		"pub": {
+			"topic": "chromecast",
+			"message": "play",
+			"retain": false
+		}
 	}, {
-		"topic": "chromecast",
 		"name": " Pause",
-		"message": "pause"
+		"pub": {
+			"topic": "chromecast",
+			"message": "pause",
+			"retain": false
+		}
 	}, {
-		"topic": "chromecast",
 		"name": " Stop",
-		"message": "stop"
+		"pub": {
+			"topic": "chromecast",
+			"message": "stop",
+			"retain": false
+		}
 	}, {
-		"topic": "chromecast",
 		"name": " Quit",
-		"message": "quit"
+		"pub": {
+			"topic": "chromecast",
+			"message": "quit",
+			"retain": false
+		}
 	}, {
-		"topic": "chromecast",
 		"name": " Volume +",
-		"message": "vol+"
+		"pub": {
+			"topic": "chromecast",
+			"message": "vol+",
+			"retain": false
+		}
 	}, {
-		"topic": "chromecast",
 		"name": " Volume -",
-		"message": "vol-"
+		"pub": {
+			"topic": "chromecast",
+			"message": "vol-",
+			"retain": false
+		}
 	}, {
-		"topic": "chromecast",
 		"name": " Seek -",
-		"message": "seek-"
+		"pub": {
+			"topic": "chromecast",
+			"message": "seek-",
+			"retain": false
+		}
 	}],
 	"currentUsages": [{
 			"deviceName": "Cocina",

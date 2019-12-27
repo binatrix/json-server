@@ -1,32 +1,74 @@
 {
 	"mqtt": [{
-		"topic": "luces/luz_papa",
 		"name": " Papa",
-		"message": "FLIP"
+		"pub": {
+			"topic": "luces/luz_papa/in",
+			"message": "FLIP",
+			"retain": true
+		},
+		"sub": {
+			"topic": "luces/luz_papa/out"
+		}
 	}, {
-		"topic": "luces/luz_comedor",
 		"name": " Comedor",
-		"message": "FLIP"
+		"pub": {
+			"topic": "luces/luz_comedor/in",
+			"message": "FLIP",
+			"retain": true
+		},
+		"sub": {
+			"topic": "luces/luz_comedor/out"
+		}
 	}, {
-		"topic": "luces/luz_living",
 		"name": " Arbol",
-		"message": "FLIP"
+		"pub": {
+			"topic": "luces/luz_living/in",
+			"message": "FLIP",
+			"retain": true
+		},
+		"sub": {
+			"topic": "luces/luz_living/out"
+		}
 	}, {
-		"topic": "luces/luz_jardin",
 		"name": " Jardin",
-		"message": "FLIP"
+		"pub": {
+			"topic": "luces/luz_jardin/in",
+			"message": "FLIP",
+			"retain": true
+		},
+		"sub": {
+			"topic": "luces/luz_jardin/out"
+		}
 	}, {
-		"topic": "luces/luz_patio",
 		"name": " Patio",
-		"message": "FLIP"
+		"pub": {
+			"topic": "luces/luz_patio/in",
+			"message": "FLIP",
+			"retain": true
+		},
+		"sub": {
+			"topic": "luces/luz_patio/out"
+		}
 	}, {
-		"topic": "luces/luz_manzarda",
 		"name": " Manzarda",
-		"message": "FLIP"
+		"pub": {
+			"topic": "luces/luz_manzarda/in",
+			"message": "FLIP",
+			"retain": true
+		},
+		"sub": {
+			"topic": "luces/luz_manzarda/out"
+		}
 	}, {
-		"topic": "luces/luz_pablo",
 		"name": " Pablo",
-		"message": "FLIP"
+		"pub": {
+			"topic": "luces/luz_pablo/in",
+			"message": "FLIP",
+			"retain": true
+		},
+		"sub": {
+			"topic": "luces/luz_pablo/out"
+		}
 	}],
 	"chromecast": [{
 		"topic": "chromecast",

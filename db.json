@@ -7,7 +7,20 @@
 			"retain": true
 		},
 		"sub": {
-			"topic": "luces/luz_papa/out"
+			"topic": "luces/luz_papa/out",
+			"color": [{
+				"payload": "ON",
+				"text": "0xFFFF",
+				"back": "0x03E0"
+			}, {
+				"payload": "OFF",
+				"text": "0xFFFF",
+				"back": "0x0000"
+			}, {
+				"payload": "OUT",
+				"text": "0xFFFF",
+				"back": "0xF800"
+			}]		
 		}
 	}, {
 		"name": " Comedor",

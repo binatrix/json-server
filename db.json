@@ -34,8 +34,32 @@
 		"payload": "play"
 	}, {
 		"topic": "chromecast",
+		"name": " Pause",
+		"payload": "pause"
+	}, {
+		"topic": "chromecast",
 		"name": " Stop",
 		"payload": "stop"
+	}, {
+		"topic": "chromecast",
+		"name": " Quit",
+		"payload": "quit"
+	}, {
+		"topic": "chromecast",
+		"name": " Volume +",
+		"payload": "vol+"
+	}, {
+		"topic": "chromecast",
+		"name": " Volume -",
+		"payload": "vol-"
+	}, {
+		"topic": "chromecast",
+		"name": " Seek +",
+		"payload": "seek+"
+	}, {
+		"topic": "chromecast",
+		"name": " Seek -",
+		"payload": "seek-"
 	}],
 	"currentUsages": [{
 			"deviceName": "Cocina",

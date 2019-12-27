@@ -1,24 +1,24 @@
 {
 	"mqtt": [{
-		"tag": "luces/luz_papa",
+		"topic": "luces/luz_papa",
 		"name": " Papa"
 	},{
-		"tag": "luces/luz_comedor",
+		"topic": "luces/luz_comedor",
 		"name": " Comedor"
 	},{
-		"tag": "luces/luz_living",
+		"topic": "luces/luz_living",
 		"name": " Arbol"
 	},{
-		"tag": "luces/luz_jardin",
+		"topic": "luces/luz_jardin",
 		"name": " Jardin"
 	},{
-		"tag": "luces/luz_patio",
+		"topic": "luces/luz_patio",
 		"name": " Patio"
 	},{
-		"tag": "luces/luz_manzarda",
+		"topic": "luces/luz_manzarda",
 		"name": " Manzarda"
 	},{
-		"tag": "luces/luz_pablo",
+		"topic": "luces/luz_pablo",
 		"name": " Pablo"
 	}],
 	"currentUsages": [{

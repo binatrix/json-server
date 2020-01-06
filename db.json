@@ -46,7 +46,7 @@
 			}]
 		}
 	}, {
-		"name": " Arbol",
+		"name": " Living",
 		"pub": {
 			"topic": "luces/luz_living/in",
 			"message": "FLIP",

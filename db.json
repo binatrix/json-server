@@ -11,7 +11,7 @@
 			"color": [{
 				"payload": "ON",
 				"text": "0xFFFF",
-				"back": "0x03E0"
+				"back": "0xF0F0"
 			}, {
 				"payload": "OFF",
 				"text": "0xFFFF",

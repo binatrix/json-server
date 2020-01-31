@@ -11,7 +11,7 @@
         "topic": "luces/luz_papa/out",
         "color": [
           {
-            "payload": "ON",
+            "payload": "ON1",
             "text": "0xFFFF",
             "back": "0x03E0"
           },

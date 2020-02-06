@@ -1,7 +1,7 @@
 {
   "mqtt": [
     {
-      "name": " Papa33",
+      "name": " Papa",
       "pub": {
         "topic": "luces/luz_papa/in",
         "message": "FLIP",

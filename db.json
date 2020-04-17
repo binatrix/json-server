@@ -141,7 +141,7 @@
       }
     },
     {
-      "name": " Manzarda",
+      "name": " Mansarda",
       "pub": {
         "topic": "luces/luz_manzarda/in",
         "message": "FLIP",
@@ -177,6 +177,34 @@
       },
       "sub": {
         "topic": "luces/luz_pablo/out",
+        "color": [
+          {
+            "payload": "ON",
+            "text": "0xFFFF",
+            "back": "0x03E0"
+          },
+          {
+            "payload": "OFF",
+            "text": "0xFFFF",
+            "back": "0x0000"
+          },
+          {
+            "payload": "OUT",
+            "text": "0xFFFF",
+            "back": "0xF800"
+          }
+        ]
+      }
+    },
+    {
+      "name": " Cata",
+      "pub": {
+        "topic": "luces/luz_cata/in",
+        "message": "FLIP",
+        "retain": true
+      },
+      "sub": {
+        "topic": "luces/luz_cata/out",
         "color": [
           {
             "payload": "ON",

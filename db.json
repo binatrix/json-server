@@ -1,380 +1,367 @@
 {
-  "mqtt": [
-    {
-      "name": " Papa",
-      "pub": {
-        "topic": "luces/luz_papa/in",
-        "message": "FLIP",
-        "retain": true
-      },
-      "sub": {
-        "topic": "luces/luz_papa/out",
-        "color": [
-          {
-            "payload": "ON",
-            "text": "0xFFFF",
-            "back": "0x03E0"
-          },
-          {
-            "payload": "OFF",
-            "text": "0xFFFF",
-            "back": "0x0000"
-          },
-          {
-            "payload": "OUT",
-            "text": "0xFFFF",
-            "back": "0xF800"
-          }
-        ]
-      }
-    },
-    {
-      "name": " Comedor",
-      "pub": {
-        "topic": "luces/luz_comedor/in",
-        "message": "FLIP",
-        "retain": true
-      },
-      "sub": {
-        "topic": "luces/luz_comedor/out",
-        "color": [
-          {
-            "payload": "ON",
-            "text": "0xFFFF",
-            "back": "0x03E0"
-          },
-          {
-            "payload": "OFF",
-            "text": "0xFFFF",
-            "back": "0x0000"
-          },
-          {
-            "payload": "OUT",
-            "text": "0xFFFF",
-            "back": "0xF800"
-          }
-        ]
-      }
-    },
-    {
-      "name": " Living",
-      "pub": {
-        "topic": "luces/luz_living/in",
-        "message": "FLIP",
-        "retain": true
-      },
-      "sub": {
-        "topic": "luces/luz_living/out",
-        "color": [
-          {
-            "payload": "ON",
-            "text": "0xFFFF",
-            "back": "0x03E0"
-          },
-          {
-            "payload": "OFF",
-            "text": "0xFFFF",
-            "back": "0x0000"
-          },
-          {
-            "payload": "OUT",
-            "text": "0xFFFF",
-            "back": "0xF800"
-          }
-        ]
-      }
-    },
-    {
-      "name": " Jardin",
-      "pub": {
-        "topic": "luces/luz_jardin/in",
-        "message": "FLIP",
-        "retain": true
-      },
-      "sub": {
-        "topic": "luces/luz_jardin/out",
-        "color": [
-          {
-            "payload": "ON",
-            "text": "0xFFFF",
-            "back": "0x03E0"
-          },
-          {
-            "payload": "OFF",
-            "text": "0xFFFF",
-            "back": "0x0000"
-          },
-          {
-            "payload": "OUT",
-            "text": "0xFFFF",
-            "back": "0xF800"
-          }
-        ]
-      }
-    },
-    {
-      "name": " Patio",
-      "pub": {
-        "topic": "luces/luz_patio/in",
-        "message": "FLIP",
-        "retain": true
-      },
-      "sub": {
-        "topic": "luces/luz_patio/out",
-        "color": [
-          {
-            "payload": "ON",
-            "text": "0xFFFF",
-            "back": "0x03E0"
-          },
-          {
-            "payload": "OFF",
-            "text": "0xFFFF",
-            "back": "0x0000"
-          },
-          {
-            "payload": "OUT",
-            "text": "0xFFFF",
-            "back": "0xF800"
-          }
-        ]
-      }
-    },
-    {
-      "name": " Mansarda",
-      "pub": {
-        "topic": "luces/luz_manzarda/in",
-        "message": "FLIP",
-        "retain": true
-      },
-      "sub": {
-        "topic": "luces/luz_manzarda/out",
-        "color": [
-          {
-            "payload": "ON",
-            "text": "0xFFFF",
-            "back": "0x03E0"
-          },
-          {
-            "payload": "OFF",
-            "text": "0xFFFF",
-            "back": "0x0000"
-          },
-          {
-            "payload": "OUT",
-            "text": "0xFFFF",
-            "back": "0xF800"
-          }
-        ]
-      }
-    },
-    {
-      "name": " Pablo",
-      "pub": {
-        "topic": "luces/luz_pablo/in",
-        "message": "FLIP",
-        "retain": true
-      },
-      "sub": {
-        "topic": "luces/luz_pablo/out",
-        "color": [
-          {
-            "payload": "ON",
-            "text": "0xFFFF",
-            "back": "0x03E0"
-          },
-          {
-            "payload": "OFF",
-            "text": "0xFFFF",
-            "back": "0x0000"
-          },
-          {
-            "payload": "OUT",
-            "text": "0xFFFF",
-            "back": "0xF800"
-          }
-        ]
-      }
-    },
-    {
-      "name": " Cata",
-      "pub": {
-        "topic": "luces/luz_cata/in",
-        "message": "FLIP",
-        "retain": true
-      },
-      "sub": {
-        "topic": "luces/luz_cata/out",
-        "color": [
-          {
-            "payload": "ON",
-            "text": "0xFFFF",
-            "back": "0x03E0"
-          },
-          {
-            "payload": "OFF",
-            "text": "0xFFFF",
-            "back": "0x0000"
-          },
-          {
-            "payload": "OUT",
-            "text": "0xFFFF",
-            "back": "0xF800"
-          }
-        ]
-      }
-    },
-    {
-      "name": " Play",
-      "pub": {
-        "topic": "chromecast",
-        "message": "play"
-      }
-    },
-    {
-      "name": " Pause",
-      "pub": {
-        "topic": "chromecast",
-        "message": "pause"
-      }
-    },
-    {
-      "name": " Stop",
-      "pub": {
-        "topic": "chromecast",
-        "message": "stop"
-      }
-    },
-    {
-      "name": " Quit",
-      "pub": {
-        "topic": "chromecast",
-        "message": "quit"
-      }
-    },
-    {
-      "name": " Volume +",
-      "pub": {
-        "topic": "chromecast",
-        "message": "vol+"
-      }
-    },
-    {
-      "name": " Volume -",
-      "pub": {
-        "topic": "chromecast",
-        "message": "vol-"
-      }
-    },
-    {
-      "name": " Seek -",
-      "pub": {
-        "topic": "chromecast",
-        "message": "seek-"
-      }
-    }
+	"mqtt": [{
+			"name": " Papa",
+			"pub": {
+				"topic": "luces/luz_papa/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_papa/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
+			"name": " Comedor",
+			"pub": {
+				"topic": "luces/luz_comedor/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_comedor/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
+			"name": " Living",
+			"pub": {
+				"topic": "luces/luz_living/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_living/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
+			"name": " Jardin",
+			"pub": {
+				"topic": "luces/luz_jardin/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_jardin/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
+			"name": " Patio",
+			"pub": {
+				"topic": "luces/luz_patio/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_patio/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
+			"name": " Mansarda",
+			"pub": {
+				"topic": "luces/luz_manzarda/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_manzarda/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
+			"name": " Pablo",
+			"pub": {
+				"topic": "luces/luz_pablo/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_pablo/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
+			"name": " Cata",
+			"pub": {
+				"topic": "luces/luz_cata/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_cata/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
+			"name": " Play",
+			"pub": {
+				"topic": "chromecast",
+				"message": "play"
+			}
+		},
+		{
+			"name": " Pause",
+			"pub": {
+				"topic": "chromecast",
+				"message": "pause"
+			}
+		},
+		{
+			"name": " Stop",
+			"pub": {
+				"topic": "chromecast",
+				"message": "stop"
+			}
+		},
+		{
+			"name": " Quit",
+			"pub": {
+				"topic": "chromecast",
+				"message": "quit"
+			}
+		},
+		{
+			"name": " Volume +",
+			"pub": {
+				"topic": "chromecast",
+				"message": "vol+"
+			}
+		},
+		{
+			"name": " Volume -",
+			"pub": {
+				"topic": "chromecast",
+				"message": "vol-"
+			}
+		},
+		{
+			"name": " Seek -",
+			"pub": {
+				"topic": "chromecast",
+				"message": "seek-"
+			}
+		}
 
-  ],
-  "chromecast": [
-    {
-      "name": " Play",
-      "pub": {
-        "topic": "chromecast",
-        "message": "play"
-      }
-    },
-    {
-      "name": " Pause",
-      "pub": {
-        "topic": "chromecast",
-        "message": "pause"
-      }
-    },
-    {
-      "name": " Stop",
-      "pub": {
-        "topic": "chromecast",
-        "message": "stop"
-      }
-    },
-    {
-      "name": " Quit",
-      "pub": {
-        "topic": "chromecast",
-        "message": "quit"
-      }
-    },
-    {
-      "name": " Volume +",
-      "pub": {
-        "topic": "chromecast",
-        "message": "vol+"
-      }
-    },
-    {
-      "name": " Volume -",
-      "pub": {
-        "topic": "chromecast",
-        "message": "vol-"
-      }
-    },
-    {
-      "name": " Seek -",
-      "pub": {
-        "topic": "chromecast",
-        "message": "seek-"
-      }
-    }
-  ],
-  "currentUsages": [
-    {
-      "deviceName": "Cocina",
-      "currentWattValue": 180,
-      "todayKwhUsage": 5.902,
-      "lastUpdate": "2019-04-02T18:12:06Z"
-    },
-    {
-      "deviceName": "Manzarda",
-      "currentWattValue": 76,
-      "todayKwhUsage": 0.46,
-      "lastUpdate": "2019-04-02T18:06:52Z"
-    },
-    {
-      "deviceName": "Living",
-      "currentWattValue": 0,
-      "todayKwhUsage": 2.21,
-      "lastUpdate": "2019-04-02T17:30:01Z"
-    },
-    {
-      "deviceName": "Pieza",
-      "currentWattValue": 1.3,
-      "todayKwhUsage": 0.55,
-      "lastUpdate": "2019-04-02T18:09:55Z"
-    },
-    {
-      "deviceName": "Comedor",
-      "currentWattValue": 0.5,
-      "todayKwhUsage": 0.01,
-      "lastUpdate": "2019-04-02T18:10:51Z"
-    },
-    {
-      "deviceName": "Patio",
-      "currentWattValue": 0,
-      "todayKwhUsage": 0,
-      "lastUpdate": "2019-04-02T18:12:06Z"
-    }
-  ],
-  "sites": [
-    {
-      "name": "Water",
-      "url": "http://127.0.0.1/water/1",
-      "method": "POST",
-      "data": {
-        "aaa": 1
-      },
-      "auth": {
-        "basic": "xxxxxxxxxxx"
-      }
-    }
-  ]
+	],
+	"chromecast": [{
+			"name": " Play",
+			"pub": {
+				"topic": "chromecast",
+				"message": "play"
+			}
+		},
+		{
+			"name": " Pause",
+			"pub": {
+				"topic": "chromecast",
+				"message": "pause"
+			}
+		},
+		{
+			"name": " Stop",
+			"pub": {
+				"topic": "chromecast",
+				"message": "stop"
+			}
+		},
+		{
+			"name": " Quit",
+			"pub": {
+				"topic": "chromecast",
+				"message": "quit"
+			}
+		},
+		{
+			"name": " Volume +",
+			"pub": {
+				"topic": "chromecast",
+				"message": "vol+"
+			}
+		},
+		{
+			"name": " Volume -",
+			"pub": {
+				"topic": "chromecast",
+				"message": "vol-"
+			}
+		},
+		{
+			"name": " Seek -",
+			"pub": {
+				"topic": "chromecast",
+				"message": "seek-"
+			}
+		}
+	],
+	"currentUsages": [{
+			"deviceName": "Cocina",
+			"currentWattValue": 180,
+			"todayKwhUsage": 5.902,
+			"lastUpdate": "2019-04-02T18:12:06Z"
+		},
+		{
+			"deviceName": "Manzarda",
+			"currentWattValue": 76,
+			"todayKwhUsage": 0.46,
+			"lastUpdate": "2019-04-02T18:06:52Z"
+		},
+		{
+			"deviceName": "Living",
+			"currentWattValue": 0,
+			"todayKwhUsage": 2.21,
+			"lastUpdate": "2019-04-02T17:30:01Z"
+		},
+		{
+			"deviceName": "Pieza",
+			"currentWattValue": 1.3,
+			"todayKwhUsage": 0.55,
+			"lastUpdate": "2019-04-02T18:09:55Z"
+		},
+		{
+			"deviceName": "Comedor",
+			"currentWattValue": 0.5,
+			"todayKwhUsage": 0.01,
+			"lastUpdate": "2019-04-02T18:10:51Z"
+		},
+		{
+			"deviceName": "Patio",
+			"currentWattValue": 0,
+			"todayKwhUsage": 0,
+			"lastUpdate": "2019-04-02T18:12:06Z"
+		}
+	],
+	"sites": [{
+		"name": "Water",
+		"url": "http://127.0.0.1/water/1",
+		"method": "POST",
+		"data": {
+			"aaa": 1
+		},
+		"auth": {
+			"basic": "xxxxxxxxxxx"
+		}
+	}]
 }

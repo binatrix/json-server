@@ -162,6 +162,33 @@
 			}
 		},
 		{
+			"name": " Cocina",
+			"pub": {
+				"topic": "luces/luz_cocina/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_cocina/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
 			"name": " Pablo",
 			"pub": {
 				"topic": "luces/luz_pablo/in",

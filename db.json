@@ -135,14 +135,14 @@
 			}
 		},
 		{
-			"name": " Mansarda",
+			"name": " Cocina",
 			"pub": {
-				"topic": "luces/luz_manzarda/in",
+				"topic": "luces/luz_cocina/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_manzarda/out",
+				"topic": "luces/luz_cocina/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -162,14 +162,41 @@
 			}
 		},
 		{
-			"name": " Cocina",
+			"name": " Pasillo",
 			"pub": {
-				"topic": "luces/luz_cocina/in",
+				"topic": "luces/luz_pasillo/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_cocina/out",
+				"topic": "luces/luz_pasillo/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
+			"name": " Mansarda",
+			"pub": {
+				"topic": "luces/luz_manzarda/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_manzarda/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -224,33 +251,6 @@
 			},
 			"sub": {
 				"topic": "luces/luz_cata/out",
-				"color": [{
-						"payload": "ON",
-						"text": "0xFFFF",
-						"back": "0x03E0"
-					},
-					{
-						"payload": "OFF",
-						"text": "0xFFFF",
-						"back": "0x0000"
-					},
-					{
-						"payload": "OUT",
-						"text": "0xFFFF",
-						"back": "0xF800"
-					}
-				]
-			}
-		},
-		{
-			"name": " Pasillo",
-			"pub": {
-				"topic": "luces/luz_pasillo/in",
-				"message": "FLIP",
-				"retain": true
-			},
-			"sub": {
-				"topic": "luces/luz_pasillo/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",

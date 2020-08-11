@@ -241,6 +241,33 @@
 					}
 				]
 			}
+		},
+		{
+			"name": " Pasillo",
+			"pub": {
+				"topic": "luces/luz_pasillo/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_pasillo/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
 		}
 	],
 	"chromecast": [{

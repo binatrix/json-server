@@ -191,12 +191,12 @@
 		{
 			"name": " Mansarda",
 			"pub": {
-				"topic": "luces/luz_manzarda/in",
+				"topic": "luces/luz_mansarda/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_manzarda/out",
+				"topic": "luces/luz_mansarda/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",

@@ -81,6 +81,33 @@
 			}
 		},
 		{
+			"name": " Entrada",
+			"pub": {
+				"topic": "luces/luz_entrada/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "luces/luz_entrada/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		{
 			"name": " Jardin",
 			"pub": {
 				"topic": "luces/luz_jardin/in",

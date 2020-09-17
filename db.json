@@ -2,15 +2,15 @@
 	"video": [
 		{
 			"file": "arcade.mp4",
-			"keys": "arcade pablo cata juego"
+			"keys": ["arcade", "pablo", "cata", "juego"]
 		},
 		{
 			"file": "cd.mp4",
-			"keys": "papa pablo"
+			"keys": ["papa", "pablo"]
 		},
 		{
 			"file": "luz.mp4",
-			"keys": "pablo cata"
+			"keys": ["pablo", "cata"]
 		}
 	],
 	"mqtt": [{

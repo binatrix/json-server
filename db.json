@@ -1,4 +1,18 @@
 {
+	"video": [
+		{
+			"file": "arcade.mp4",
+			"keys": "arcade pablo cata juego"
+		},
+		{
+			"file": "arcade2.mp4",
+			"keys": "papa pablo"
+		},
+		{
+			"file": "arcade3.mp4",
+			"keys": "pablo cata"
+		}
+	],
 	"mqtt": [{
 			"name": " Papa",
 			"pub": {

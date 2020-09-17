@@ -1,16 +1,16 @@
 {
 	"video": [
 		{
-			"file": "arcade.mp4",
+			"file": "matrimonio.mp4",
 			"keys": ["matrimonio", "marcelo", "ingrid", "papas", "1995"]
 		},
 		{
-			"file": "cd.mp4",
+			"file": "glaciar.mp4",
 			"keys": ["viaje", "glaciar", "ingrid", "marcelo", "2000"]
 		},
 		{
-			"file": "luz.mp4",
-			"keys": ["pablo", "cata"]
+			"file": "cata_cumple.mp4",
+			"keys": ["cata", "cumpleaños"]
 		}
 	],
 	"mqtt": [{

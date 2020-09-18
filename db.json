@@ -19,10 +19,28 @@
 			"keys": ["cata", "antupiren", "juego", "2000"]
 		},
 		{
+			"file": "cata_bautizo.mp4",
+			"desc": "Bautizo de Catalina",
+			"year": 2000,
+			"keys": ["cata", "bautizo", "2000"]
+		},
+		{
+			"file": "cata_cumple_3.mp4",
+			"desc": "Cumpleaños 3 de Catalina",
+			"year": 2000,
+			"keys": ["cata", "cumpleaños", "2000"]
+		},
+		{
 			"file": "cata_dia_del_padre.mp4",
 			"desc": "Actividad del día del padre en el jardín",
 			"year": 2000,
 			"keys": ["cata", "padre", "payaso", "disfraz", "papa", "jardin", "2000"]
+		},
+		{
+			"file": "cata_jardin.mp4",
+			"desc": "Catalina en su primer día de jardín Abejita Maya",
+			"year": 2000,
+			"keys": ["cata", "jardín", "abejita maya", "2000"]
 		},
 		{
 			"file": "cata_lampara_pluto.mp4",

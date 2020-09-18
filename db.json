@@ -2,15 +2,38 @@
 	"video": [
 		{
 			"file": "matrimonio.mp4",
+			"desc": "Matrimonio",
 			"keys": ["matrimonio", "marcelo", "ingrid", "papas", "1995"]
 		},
 		{
 			"file": "glaciar.mp4",
-			"keys": ["viaje", "glaciar", "ingrid", "marcelo", "2000"]
+			"desc": "Viaje al glaciar de San Rafael",
+			"keys": ["viaje", "glaciar", "ingrid", "marcelo", "aniversario", "san rafael", "2000"]
 		},
 		{
-			"file": "cata_cumple.mp4",
-			"keys": ["cata", "cumpleaños"]
+			"file": "cata_antupiren.mp4",
+			"desc": "Catalina jugando en Antupirén",
+			"keys": ["cata", "antupiren", "juego", "2000"]
+		},
+		{
+			"file": "cata_dia_del_padre.mp4",
+			"desc": "Actividad del día del padre en el jardín",
+			"keys": ["cata", "padre", "payaso", "disfraz", "papa", "jardin", "2000"]
+		},
+		{
+			"file": "cata_lampara_pluto.mp4",
+			"desc": "Lámpara de Pluto encendida de noche",
+			"keys": ["cata", "lámpara", "noche", "2000"]
+		},
+		{
+			"file": "cata_pascua.mp4",
+			"desc": "Catalina buscando huevitos de pascua",
+			"keys": ["cata", "pascua", "huevos", "2000"]
+		},
+		{
+			"file": "cata_zoo.mp4",
+			"desc": "Visita al zoológico de Buin",
+			"keys": ["cata", "zoo", "buin", "2000"]
 		}
 	],
 	"mqtt": [{

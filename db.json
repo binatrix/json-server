@@ -2,10 +2,10 @@
 	"spoticard": {
 			"device": "513ae5511faa36d246439da314faa3b45358f99a",
 		     	"albums": [
-				{"5000987E299F": "spotify:album:5ht7ItJgpBH7W6vJ5BqpPr"},
-				{"5000987E1AAC": "spotify:album:0W7mquARagPr9V1N0nHYgK"},
-				{"5000987DFA4F": "spotify:album:5ycnwHGkzOlTuMOI3Zh4iO"},
-				{"0600184FD180": "spotify:album:1L4HE00En7eNK74voVZums"}
+				{"tag": "5000987E299F", "album": "spotify:album:5ht7ItJgpBH7W6vJ5BqpPr"},
+				{"tag": "5000987E1AAC", "album": "spotify:album:0W7mquARagPr9V1N0nHYgK"},
+				{"tag": "5000987DFA4F", "album": "spotify:album:5ycnwHGkzOlTuMOI3Zh4iO"},
+				{"tag": "0600184FD180", "album": "spotify:album:1L4HE00En7eNK74voVZums"}
 		      ]
 	},
 	"mqtt": [{

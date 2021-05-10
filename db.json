@@ -7,8 +7,7 @@
 				{"tag": "5000987E1AAC", "album": "spotify:album:0W7mquARagPr9V1N0nHYgK"},
 				{"tag": "5000987DFA4F", "album": "spotify:album:5ycnwHGkzOlTuMOI3Zh4iO"},
 				{"tag": "0600184FD180", "album": "spotify:album:1L4HE00En7eNK74voVZums"}
-		      	]
-	},
+	],
 	"mqtt": [{
 			"name": " Papa",
 			"pub": {

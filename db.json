@@ -20,6 +20,33 @@
 		}
 	],
 	"mqtt": [{
+			"name": " Cortina",
+			"pub": {
+				"topic": "cortinas/cortina_papa/in",
+				"message": "FLIP",
+				"retain": true
+			},
+			"sub": {
+				"topic": "cortinas/cortina_papa/out",
+				"color": [{
+						"payload": "ON",
+						"text": "0xFFFF",
+						"back": "0x03E0"
+					},
+					{
+						"payload": "OFF",
+						"text": "0xFFFF",
+						"back": "0x0000"
+					},
+					{
+						"payload": "OUT",
+						"text": "0xFFFF",
+						"back": "0xF800"
+					}
+				]
+			}
+		},
+		 {
 			"name": " Papa",
 			"pub": {
 				"topic": "luces/luz_papa/in",

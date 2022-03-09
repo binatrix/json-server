@@ -1,24 +1,4 @@
 {
-	"spoticard_device": {
-		"id": "513ae5511faa36d246439da314faa3b45358f99a"
-	},
-	"spoticard_albums": [{
-			"tag": "5000987E299F",
-			"album": "spotify:album:2Pw51hAGvWpTA3AYl2WVuu"
-		},
-		{
-			"tag": "5000987E1AAC",
-			"album": "spotify:album:0W7mquARagPr9V1N0nHYgK"
-		},
-		{
-			"tag": "5000987DFA4F",
-			"album": "spotify:album:48joW5905AMbTFLvy8ZWch"
-		},
-		{
-			"tag": "0600184FD180",
-			"album": "spotify:album:6NkuCdMz5tGmHbOXAWbtCW"
-		}
-	],
 	"mqtt": [{
 			"name": " Cortina",
 			"pub": {

@@ -1,4 +1,5 @@
 {
+	"caida": ["k-afae0aab4fe7", "k-d21741b7e6b4"],
 	"mqtt": [{
 			"name": " Cortina",
 			"pub": {

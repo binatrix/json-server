@@ -3,12 +3,12 @@
 	"mqtt": [{
 			"name": " Cortina",
 			"pub": {
-				"topic": "cortinas/cortina_papa/in",
+				"topic": "domo/cortinas/cortina_papa/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "cortinas/cortina_papa/out",
+				"topic": "domo/cortinas/cortina_papa/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -30,12 +30,12 @@
 		 {
 			"name": " Papa",
 			"pub": {
-				"topic": "luces/luz_papa/in",
+				"topic": "domo/luces/luz_papa/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_papa/out",
+				"topic": "domo/luces/luz_papa/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -57,12 +57,12 @@
 		{
 			"name": " Comedor",
 			"pub": {
-				"topic": "luces/luz_comedor/in",
+				"topic": "domo/luces/luz_comedor/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_comedor/out",
+				"topic": "domo/luces/luz_comedor/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -84,12 +84,12 @@
 		{
 			"name": " Living",
 			"pub": {
-				"topic": "luces/luz_living/in",
+				"topic": "domo/luces/luz_living/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_living/out",
+				"topic": "domo/luces/luz_living/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -111,12 +111,12 @@
 		{
 			"name": " Entrada",
 			"pub": {
-				"topic": "luces/luz_entrada/in",
+				"topic": "domo/luces/luz_entrada/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_entrada/out",
+				"topic": "domo/luces/luz_entrada/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -138,12 +138,12 @@
 		{
 			"name": " Jardin",
 			"pub": {
-				"topic": "luces/luz_jardin/in",
+				"topic": "domo/luces/luz_jardin/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_jardin/out",
+				"topic": "domo/luces/luz_jardin/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -165,12 +165,12 @@
 		{
 			"name": " Patio",
 			"pub": {
-				"topic": "luces/luz_patio/in",
+				"topic": "domo/luces/luz_patio/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_patio/out",
+				"topic": "domo/luces/luz_patio/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -192,12 +192,12 @@
 		{
 			"name": " Cocina",
 			"pub": {
-				"topic": "luces/luz_cocina/in",
+				"topic": "domo/luces/luz_cocina/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_cocina/out",
+				"topic": "domo/luces/luz_cocina/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -219,12 +219,12 @@
 		{
 			"name": " Pasillo",
 			"pub": {
-				"topic": "luces/luz_pasillo/in",
+				"topic": "domo/luces/luz_pasillo/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_pasillo/out",
+				"topic": "domo/luces/luz_pasillo/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -246,12 +246,12 @@
 		{
 			"name": " Mansarda",
 			"pub": {
-				"topic": "luces/luz_mansarda/in",
+				"topic": "domo/luces/luz_mansarda/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_mansarda/out",
+				"topic": "domo/luces/luz_mansarda/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -273,12 +273,12 @@
 		{
 			"name": " Pablo",
 			"pub": {
-				"topic": "luces/luz_pablo/in",
+				"topic": "domo/luces/luz_pablo/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_pablo/out",
+				"topic": "domo/luces/luz_pablo/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",
@@ -300,12 +300,12 @@
 		{
 			"name": " Cata",
 			"pub": {
-				"topic": "luces/luz_cata/in",
+				"topic": "domo/luces/luz_cata/in",
 				"message": "FLIP",
 				"retain": true
 			},
 			"sub": {
-				"topic": "luces/luz_cata/out",
+				"topic": "domo/luces/luz_cata/out",
 				"color": [{
 						"payload": "ON",
 						"text": "0xFFFF",

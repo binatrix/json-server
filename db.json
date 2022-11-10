@@ -1,32 +1,6 @@
 {
 	"caida": ["k-afae0aab4fe7", "k-d21741b7e6b4", "k-28e22cdb3cfe"],
 	"mqtt": [{
-			"name": " Cortina",
-			"pub": {
-				"topic": "domo/cortinas/cortina_papa/in",
-				"message": "FLIP",
-				"retain": true
-			},
-			"sub": {
-				"topic": "domo/cortinas/cortina_papa/out",
-				"color": [{
-						"payload": "ON",
-						"text": "0xFFFF",
-						"back": "0x03E0"
-					},
-					{
-						"payload": "OFF",
-						"text": "0xFFFF",
-						"back": "0x0000"
-					},
-					{
-						"payload": "OUT",
-						"text": "0xFFFF",
-						"back": "0xF800"
-					}
-				]
-			}
-		},
 		 {
 			"name": " Papa",
 			"pub": {

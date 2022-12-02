@@ -1,7 +1,6 @@
 {
 	"caida": ["k-afae0aab4fe7", "k-d21741b7e6b4", "k-28e22cdb3cfe"],
 	"mqtt": [{
-		 {
 			"name": " Papa",
 			"pub": {
 				"topic": "domo/luces/luz_papa/in",

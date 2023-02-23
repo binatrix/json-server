@@ -1,4 +1,19 @@
 {
+	"paradas": [{
+			"id": "PD550",
+			"glosa": "Avenida Grecia / esq. Pasaje 444",
+			"buses": [
+				"*"
+			]
+		},
+		{
+			"id": "PC74",
+			"glosa": "Parada 6 / (M) Escuela Militar",
+			"buses": [
+				"425"
+			]
+		}
+	],
 	"caida": ["k-afae0aab4fe7", "k-d21741b7e6b4", "k-28e22cdb3cfe"],
 	"mqtt": [{
 			"name": " Papa",
